@@ -14,7 +14,7 @@
 <body class="gradient-custom-admin">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html"><i class="bi bi-braces"></i>Home</a>
+    <a class="navbar-brand" href="../index.php"><i class="bi bi-braces"></i>Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,7 +24,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admin <i class="bi bi-person-circle"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="../index.html"><i class="bi bi-box-arrow-left"></i> Cerrar sesión</a></li>
+            <li><a class="dropdown-item" href="../salir.php"><i class="bi bi-box-arrow-left"></i> Cerrar sesión</a></li>
           </ul>
         </li>
       </ul>
@@ -95,6 +95,5 @@
     </div>
   </div>
 </div> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>  
-</html>
+
+<?php include("../template/pie.php"); ?>
