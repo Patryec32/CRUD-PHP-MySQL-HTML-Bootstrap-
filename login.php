@@ -16,9 +16,9 @@
         session_start();
         $_SESSION['user'] = $email;
 
-        header('location: admin/admin.php');
+        header('location: admin.php');
     } else if($email == 'user@gmail.com' && $password == 'user' ){
-        header('location: user/inscripcion.php');    
+        header('location: inscripcion.php');    
     }else{
         echo "Email o pass Invalidos";
     }

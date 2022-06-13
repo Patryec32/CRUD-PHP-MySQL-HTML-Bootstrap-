@@ -11,10 +11,11 @@ body{
 }
 
 .gradient-custom {
-  background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5))
+  background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
 }
 .gradient-custom-admin {
-  background: linear-gradient(to top, rgba(54, 42, 65, 0.85), rgba(0, 0, 0, 0.85))}
+  background: linear-gradient(to top, rgba(54, 42, 65, 0.85), rgba(0, 0, 0, 0.85));
+}
 
 .btn-admin {
   background: linear-gradient(to top, rgba(67, 233, 123, 0.85), rgba(56, 249, 215, 0.85))

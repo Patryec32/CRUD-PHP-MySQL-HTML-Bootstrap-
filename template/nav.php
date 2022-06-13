@@ -8,8 +8,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ana Perez<i class="bi bi-person-circle"></i></a>
           <ul class="dropdown-menu dropdown-menu-dark ml-auto" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="../user/perfil.php">Mi Perfil </a></li>
-            <li><a class="dropdown-item" href="../salir.php">Cerrar sesión</a></li>
+            <li><a class="dropdown-item" href="perfil.php">Mi Perfil </a></li>
+            <li><a class="dropdown-item" href="logout.php">Cerrar sesión</a></li>
           </ul>
         </li>
       </ul>
