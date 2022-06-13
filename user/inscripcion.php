@@ -1,21 +1,6 @@
 <?php include("../template/cabecera.php"); ?>
 
-<div class="container mb-3 p-3">
-  <div class="row">
-    <div class="card text-center">
-      <div class="card-header">
-        <ul class="nav nav-tabs card-header-tabs">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="true" href="perfil.php">Mi Perfil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="true" href="miscursos.php">Mis Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="#">Inscripciones</a>
-          </li>
-        </ul>
-      </div>
+
       <div class="card-body">
       <h1 class="purple"><strong>Bienvenid@ nuevamente</strong></h1>
     <div class="row">
