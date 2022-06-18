@@ -19,7 +19,5 @@ echo('</pre>');
 foreach($rows as $row) {
 
     printf("$row[0] $row[1]\n");
-    //printf("$row['mail'] $row['password'] \n");
-
 }
 ?>
